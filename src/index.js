@@ -34,7 +34,7 @@ var nomeCompleto = "joão Silva";
        //seu código
       var nomeCompleto = nome + " " + sobrenome; 
       // Criando a mensagem de boas vindas com o nome completo 
-var mensagem = "Seja bem-vindo, " + nomeCompleto + "!";
+var mensagem = "Seja bem-vindo , " + nomeCompleto + "!";
 
 // Exibindo a mensagem no console
 console.log(mensagem );
@@ -58,8 +58,7 @@ var idadeEmAnos = 30;
       //seu código
 var  idadeEmDias = idadeEmAnos * 365;
 // Exibindo o resultado no console
-console.log("O funcionário viveu aproximadamente... dias" + idadeEmDias + "dias");
-
+console.log(`O funcionário viveu aproximadamente ${idadeEmDias} dias.`);
 //-------------------------------------------------------------------------------------------------
 
 
